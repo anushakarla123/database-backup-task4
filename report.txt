@@ -1,0 +1,24 @@
+TITLE: Database Backup and Recovery
+
+OBJECTIVE:
+To create a backup of a database and restore it in case of failure.
+
+TOOLS USED:
+
+- PostgreSQL
+- Command Line (pg_dump, psql)
+
+PROCESS:
+
+1. Created a database and inserted sample data.
+2. Took backup using pg_dump command.
+3. Simulated database failure by deleting the database.
+4. Recreated the database.
+5. Restored data using backup file.
+6. Verified the restored data.
+
+RESULT:
+The database was successfully backed up and restored without any data loss.
+
+CONCLUSION:
+Backup and recovery are essential processes to protect data from loss. Regular backups ensure data safety and quick recovery during failures.
